@@ -1,0 +1,111 @@
+# === OS 文件 ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === IDE / 编辑器 ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# === 依赖和包管理 ===
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+target/
+*.jar
+*.war
+*.ear
+
+# === 虚拟环境 ===
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === 编译输出 ===
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.class
+*.pdb
+
+# === 日志和临时文件 ===
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+logs/
+tmp/
+temp/
+
+# === 测试和覆盖率 ===
+coverage/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === 数据库和本地存储 ===
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.ldb
+
+# === 密钥和敏感配置（注意：环境变量优先） ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.yml
+config.local.yml
+
+# === 前端构建 ===
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.angular/
+
+# === Docker ===
+docker-compose.override.yml
+
+# === 其他工具 ===
+.yarn/
+.pnp.*
+.eslintcache
+.stylelintcache
+tsconfig.tsbuildinfo
+
+# === 追加忽略 ===
+*.md
+*.pdf
